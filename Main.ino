@@ -5,8 +5,8 @@
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid     = "b";
-const char* password = "intergouvernementalisme";
+const char* ssid     = "Temperature Probe";
+const char* password = "wow_password";
 float[] temperature = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 float[] humidity = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
